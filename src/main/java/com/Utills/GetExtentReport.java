@@ -3,12 +3,14 @@ package com.Utills;
 import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
 public class GetExtentReport {
 	
 	ExtentReports report;
 	ExtentSparkReporter sparkReporter;
+	ExtentTest logger;
 	
 	@Test
 	public void getReport() {
@@ -23,3 +25,4 @@ public class GetExtentReport {
 	}
 
 }
+ 
